@@ -56,3 +56,4 @@ data_1,data_7,data_30=preprocessing(browsing_history)
 
 #footprintdata1=list(data_1['url'].apply(lambda x:print(x)))
 footprintdata1=list(data_1['url'].apply(lambda x:get_footprint(x)))
+print(footprintdata1)
